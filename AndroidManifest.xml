@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.cedar.iconpack">
+
+    <application
+        android:label="CEDAR Icons"
+        android:icon="@drawable/ic_pack"
+        android:allowBackup="true">
+
+        <activity
+            android:name=".ThemeActivity"
+            android:exported="true"
+            android:label="CEDAR Icons">
+
+            <!-- Openable entry point (preview + manual launch) -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--
+              Icon-pack / theme discovery. CATEGORY_DEFAULT is REQUIRED on the
+              discovery filter: launchers query with implicit intents and a
+              filter without CATEGORY_DEFAULT is not matched for discovery or
+              package-visibility purposes. Actions cover ADW (both spellings),
+              Nova, Lawnchair and the Kvaesitso/CEDAR installer queries.
+            -->
+            <intent-filter>
+                <action android:name="org.adw.launcher.themes" />
+                <action android:name="org.adw.launcher.iconpack" />
+                <action android:name="org.adw.launcher.THEMES" />
+                <action android:name="org.adw.ActivityStarter.THEMES" />
+                <action android:name="com.novalauncher.THEME" />
+                <action android:name="app.lawnchair.icons.THEMED_ICON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

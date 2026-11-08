@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ADW-format appfilter: ComponentInfo{package/Activity} -> drawable.
+  Component names for apps installed on the emulator were verified via
+  "adb shell cmd package query-activities" with MAIN / CATEGORY_LAUNCHER.
+  Entries for apps not installed locally (WhatsApp, Telegram, Spotify, ...)
+  use well-known stable component names.
+-->
+<resources>
+    <!-- Phone -->
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="ic_phone"/>
+    <!-- Messages -->
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="ic_messages"/>
+    <!-- Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ic_chrome"/>
+    <!-- Camera -->
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="ic_camera"/>
+    <!-- Clock -->
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ic_clock"/>
+    <!-- Contacts -->
+    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ic_contacts"/>
+    <!-- Files -->
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="ic_files"/>
+    <!-- Gmail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="ic_gmail"/>
+    <!-- Gmail (alternate/legacy main activity) -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="ic_gmail_alt"/>
+    <!-- Google -->
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="ic_google"/>
+    <!-- Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="ic_maps"/>
+    <!-- Photos -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="ic_photos"/>
+    <!-- Photos (alternate/legacy main activity) -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.PhotosActivity}" drawable="ic_photos_alt"/>
+    <!-- Settings -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ic_settings"/>
+    <!-- YouTube -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="ic_youtube"/>
+    <!-- Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar"/>
+    <!-- Drive -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="ic_drive"/>
+    <!-- Drive (alternate/legacy main activity) -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.DocsActivity}" drawable="ic_drive_alt"/>
+    <!-- Play Store -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="ic_playstore"/>
+    <!-- Calculator -->
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="ic_calculator"/>
+    <!-- WhatsApp -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="ic_whatsapp"/>
+    <!-- Telegram -->
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="ic_telegram"/>
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="ic_spotify"/>
+    <!-- Keep -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="ic_keep"/>
+    <!-- Translate -->
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="ic_translate"/>
+    <!-- Wallet -->
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.walletnfcrel.presentation.activity.WalletRootActivity}" drawable="ic_wallet"/>
+    <!-- YouTube Music -->
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="ic_ytmusic"/>
+    <!-- Podcasts -->
+    <item component="ComponentInfo{com.google.android.apps.podcasts/com.google.android.apps.podcasts.PodcastsActivity}" drawable="ic_podcasts"/>
+    <!-- Home (generic + the launchers installed on this device) -->
+    <item component="ComponentInfo{com.android.launcher3/com.android.launcher3.Launcher}" drawable="ic_home"/>
+    <item component="ComponentInfo{org.cedar.launcher.debug/de.mm20.launcher2.ui.launcher.LauncherActivity}" drawable="ic_home"/>
+    <item component="ComponentInfo{de.mm20.launcher2.debug/de.mm20.launcher2.ui.launcher.LauncherActivity}" drawable="ic_home"/>
+    <!-- Recorder -->
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.RecorderActivity}" drawable="ic_recorder"/>
+</resources>
