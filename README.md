@@ -71,3 +71,11 @@ no LAUNCHER activity on this image), Calculator, WhatsApp, Telegram, Spotify,
 Keep, Translate, Wallet, Podcasts, Recorder, and the "alternate" activities
 GmailActivity / DocsActivity / PhotosActivity. Their appfilter entries use
 well-known component names and will resolve on devices that ship them.
+
+## Reproduce the full CEDAR environment
+On a fresh Linux machine, the launcher repo's bootstrap script sets up
+everything (Android SDK, AVD, both repos, builds, emulator):
+
+    git clone https://github.com/EMQOutlaw/cedar-launcher.git
+    ./cedar-launcher/scripts/cedar-env-setup.sh --launch
+
