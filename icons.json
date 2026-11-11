@@ -1,8 +1,8 @@
 {
   "pack": {
     "name": "CEDAR Icons",
-    "version_name": "3.2",
-    "version_code": 6,
+    "version_name": "4.0",
+    "version_code": 7,
     "license": "GPL-3.0-or-later",
     "upstream": "Arcticons (https://github.com/Arcticons-Team/Arcticons), GPL-3.0"
   },
@@ -1367,6 +1367,334 @@
         "app.lawnchairlite/app.lawnchairlite.MainActivity",
         "app.vela/app.vela.Launcher",
         "com.droiddeck.launcher/com.droiddeck.launcher.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_dave",
+      "label": "Dave",
+      "custom": "dave.svg",
+      "components": [
+        "com.dave/com.dave.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_hrblock",
+      "label": "H&R Block",
+      "custom": "hrblock.svg",
+      "components": [
+        "com.hrblock.blockmobile/com.hrblock.blockmobile.SplashScreenActivity"
+      ]
+    },
+    {
+      "drawable": "ic_incogni",
+      "label": "Incogni",
+      "custom": "incogni.svg",
+      "components": [
+        "com.incogni.scam.protection.android/com.incogni.scam.protection.android.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_opennutritracker",
+      "label": "OpenNutriTracker",
+      "custom": "opennutritracker.svg",
+      "components": [
+        "com.opennutritracker.ont.opennutritracker/com.opennutritracker.ont.opennutritracker.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_petal",
+      "label": "Petal Browser",
+      "custom": "petal.svg",
+      "components": [
+        "com.petal.browser/com.petal.browser.activity.BrowserActivity"
+      ]
+    },
+    {
+      "drawable": "ic_oppo_ai",
+      "label": "OPPO AI",
+      "custom": "oppo_ai.svg",
+      "components": [
+        "com.oplus.aiassistant/com.oplus.aiassistant.home.AiAssistantHomeActivity"
+      ]
+    },
+    {
+      "drawable": "ic_onx",
+      "label": "onX Offroad",
+      "custom": "onx.svg",
+      "components": [
+        "onxmaps.offroad/onxmaps.xgps.XgpsActivity"
+      ]
+    },
+    {
+      "drawable": "ic_cardo",
+      "label": "Cardo SmartSet",
+      "custom": "cardo.svg",
+      "components": [
+        "com.cardo.smartset/com.cardo.smartset.mvp.splash.SplashActivity"
+      ]
+    },
+    {
+      "drawable": "ic_premise",
+      "label": "Premise Health",
+      "custom": "premise.svg",
+      "components": [
+        "com.premisehealth.android/epic.mychart.android.library.prelogin.SplashActivity"
+      ]
+    },
+    {
+      "drawable": "ic_smarthub",
+      "label": "SmartHub",
+      "custom": "smarthub.svg",
+      "components": [
+        "coop.nisc.android.smarthub/coop.nisc.android.core.ui.activity.LoginActivity"
+      ]
+    },
+    {
+      "drawable": "ic_western_fcu",
+      "label": "Western FCU",
+      "custom": "western_fcu.svg",
+      "components": [
+        "com.westernfederalcreditunion5103.mobile.production/com.q2.app.core.ui.LauncherActivity"
+      ]
+    },
+    {
+      "drawable": "ic_bcbst",
+      "label": "BCBST",
+      "custom": "bcbst.svg",
+      "components": [
+        "com.bcbst.mma/com.bcbst.mma.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_firehouse",
+      "label": "Firehouse Subs",
+      "custom": "firehouse.svg",
+      "components": [
+        "com.ak.app.firehouse.activity/com.ak.app.firehouse.activity.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_smoothieking",
+      "label": "Smoothie King",
+      "custom": "smoothieking.svg",
+      "components": [
+        "com.appsmyth.mobile.smoothieking/io.ionic.starter.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_academy",
+      "label": "Academy Sports",
+      "custom": "academy.svg",
+      "components": [
+        "com.academy.android/com.asomobile.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_basspro",
+      "label": "Bass Pro Shops",
+      "custom": "basspro.svg",
+      "components": [
+        "com.basspro.bassprocommerce/com.basspro.bassprocommerce.activities.SplashActivity"
+      ]
+    },
+    {
+      "drawable": "ic_bww",
+      "label": "Buffalo Wild Wings",
+      "custom": "bww.svg",
+      "components": [
+        "com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_crackerbarrel",
+      "label": "Cracker Barrel",
+      "custom": "crackerbarrel.svg",
+      "components": [
+        "com.crackerbarrel.app/com.crackerbarrel.app.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_cheddars",
+      "label": "Cheddar's",
+      "custom": "cheddars.svg",
+      "components": [
+        "com.darden.mobile.cheddars/com.darden.mobile.mapp.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_olivegarden",
+      "label": "Olive Garden",
+      "custom": "olivegarden.svg",
+      "components": [
+        "com.darden.mobile.olivegarden/com.darden.mobile.mapp.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_jackinthebox",
+      "label": "Jack in the Box",
+      "custom": "jackinthebox.svg",
+      "components": [
+        "com.jacks.app/com.punchhapp.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_outback",
+      "label": "Outback",
+      "custom": "outback.svg",
+      "components": [
+        "com.outback.tampa/com.bloomin.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_salsaritas",
+      "label": "Salsarita's",
+      "custom": "salsaritas.svg",
+      "components": [
+        "com.salsaritas.app/com.koala.mobile.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_mcalisters",
+      "label": "McAlister's",
+      "custom": "mcalisters.svg",
+      "components": [
+        "com.snapfinger.mobile.mcalisters/com.focusbrands.mcalisters.dev.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_zaxbys",
+      "label": "Zaxby's",
+      "custom": "zaxbys.svg",
+      "components": [
+        "com.snapfinger.mobile.zaxbys/com.zaxbys.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_exxonmobil",
+      "label": "ExxonMobil",
+      "custom": "exxonmobil.svg",
+      "components": [
+        "com.webmarketing.exxonmpl/com.p97.exxonmobil.ui.activities.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_alienisolation",
+      "label": "Alien: Isolation",
+      "custom": "alienisolation.svg",
+      "components": [
+        "com.feralinteractive.alienisolation_android/com.feralinteractive.alienisolation_android.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_doorkickers",
+      "label": "Door Kickers",
+      "custom": "doorkickers.svg",
+      "components": [
+        "com.khg.doorkickers/com.khg.doorkickers.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_tacticus",
+      "label": "Tacticus",
+      "custom": "tacticus.svg",
+      "components": [
+        "com.snowprintstudios.tacticus/com.snowprint.loki.LokiUnityPlayerActivity"
+      ]
+    },
+    {
+      "drawable": "ic_avenuezombie",
+      "label": "Avenue Zombie",
+      "custom": "avenuezombie.svg",
+      "components": [
+        "com.avenue.zombie.gp/com.refine.zombie.debug.UnityPlayerActivityCustom"
+      ]
+    },
+    {
+      "drawable": "ic_sinceus",
+      "label": "Sinceus",
+      "custom": "mono_S.svg",
+      "components": [
+        "app.sinceus/app.sinceus.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_median",
+      "label": "Median App",
+      "custom": "mono_M.svg",
+      "components": [
+        "co.median.android.zpqawxe/co.median.android.LaunchActivity"
+      ]
+    },
+    {
+      "drawable": "ic_phs",
+      "label": "PHS",
+      "custom": "mono_P.svg",
+      "components": [
+        "com.phs.global/com.games37.sdk.AtlasPluginDemoActivity"
+      ]
+    },
+    {
+      "drawable": "ic_recreative",
+      "label": "Recreative",
+      "custom": "mono_R.svg",
+      "components": [
+        "com.recreative.recreative01/com.recreative.recreative01.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_refi",
+      "label": "ReFi Market",
+      "custom": "mono_F.svg",
+      "components": [
+        "com.rm365.refivemarket/com.avinside.LaunchActivity"
+      ]
+    },
+    {
+      "drawable": "ic_edeh",
+      "label": "EDEH",
+      "custom": "mono_E.svg",
+      "components": [
+        "com.socialchorus.edeh.android.googleplay/com.socialchorus.advodroid.activity.LauncherActivity"
+      ]
+    },
+    {
+      "drawable": "ic_gokart",
+      "label": "GoKart",
+      "custom": "mono_G.svg",
+      "components": [
+        "gokart.com.principal/gokart.com.principal.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_screenonauto",
+      "label": "Screen On Auto",
+      "custom": "mono_A.svg",
+      "components": [
+        "idv.lzn.screenonauto/idv.lzn.screenonauto.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_hummingbird",
+      "label": "Hummingbird",
+      "custom": "mono_H.svg",
+      "components": [
+        "com.molink.john.hummingbird/com.molink.john.hummingbird.activity.SplashActivity"
+      ]
+    },
+    {
+      "drawable": "ic_tsf",
+      "label": "TSF Pay",
+      "custom": "mono_T.svg",
+      "components": [
+        "com.tsfrm.tsfpaycanteen/com.avinside.LaunchActivity"
+      ]
+    },
+    {
+      "drawable": "ic_nih_erg",
+      "label": "NIH ERG",
+      "custom": "mono_N.svg",
+      "components": [
+        "gov.nih.nlm.erg2012/gov.nih.nlm.erg2012.Erg2024Launcher"
       ]
     }
   ]

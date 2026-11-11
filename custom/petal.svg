@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs><style>.s{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}.f{fill:#000;stroke:none;}</style></defs>
+  <ellipse class="s" cx="24" cy="12" rx="5.5" ry="8"/>
+  <ellipse class="s" cx="24" cy="36" rx="5.5" ry="8"/>
+  <ellipse class="s" cx="12" cy="24" rx="8" ry="5.5"/>
+  <ellipse class="s" cx="36" cy="24" rx="8" ry="5.5"/>
+  <circle class="f" cx="24" cy="24" r="3"/>
+</svg>

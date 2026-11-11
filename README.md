@@ -4,11 +4,12 @@ An installable Android icon pack that re-skins apps in CEDAR's visual language.
 Works with the CEDAR launcher (Kvaesitso fork) and any launcher that reads ADW
 `appfilter.xml` packs.
 
-**252 icons** — 244 app glyphs derived from [Arcticons](https://github.com/Arcticons-Team/Arcticons)
-plus 8 CEDAR-original glyphs.
+**293 icons** — 244 Arcticons-derived glyphs plus **49 CEDAR originals**: the 8
+brand/pack glyphs (cedar, strata, fieldstation, trailwatch, weather, vault,
+notes, tasks) and 41 hand-drawn for apps Arcticons does not cover.
 
-On the owner's phone (303 launchable components) this covers **262 apps**; the
-41 without upstream art are listed by `tools/audit_device.py` for hand-drawing.
+On the owner's phone (OPPO Find X9 Ultra, 303 launchable components) this covers
+**303 of 303** — no stock icons left anywhere in the drawer.
 
 ## Visual language
 

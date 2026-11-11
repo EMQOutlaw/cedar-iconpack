@@ -8168,4 +8168,127 @@
     <item component="ComponentInfo{app.vela/app.vela.Launcher}" drawable="ic_launcher"/>
     <item component="ComponentInfo{com.droiddeck.launcher/com.droiddeck.launcher.MainActivity}" drawable="ic_launcher"/>
 
+    <!-- Dave -->
+    <item component="ComponentInfo{com.dave/com.dave.MainActivity}" drawable="ic_dave"/>
+
+    <!-- H&R Block -->
+    <item component="ComponentInfo{com.hrblock.blockmobile/com.hrblock.blockmobile.SplashScreenActivity}" drawable="ic_hrblock"/>
+
+    <!-- Incogni -->
+    <item component="ComponentInfo{com.incogni.scam.protection.android/com.incogni.scam.protection.android.MainActivity}" drawable="ic_incogni"/>
+
+    <!-- OpenNutriTracker -->
+    <item component="ComponentInfo{com.opennutritracker.ont.opennutritracker/com.opennutritracker.ont.opennutritracker.MainActivity}" drawable="ic_opennutritracker"/>
+
+    <!-- Petal Browser -->
+    <item component="ComponentInfo{com.petal.browser/com.petal.browser.activity.BrowserActivity}" drawable="ic_petal"/>
+
+    <!-- OPPO AI -->
+    <item component="ComponentInfo{com.oplus.aiassistant/com.oplus.aiassistant.home.AiAssistantHomeActivity}" drawable="ic_oppo_ai"/>
+
+    <!-- onX Offroad -->
+    <item component="ComponentInfo{onxmaps.offroad/onxmaps.xgps.XgpsActivity}" drawable="ic_onx"/>
+
+    <!-- Cardo SmartSet -->
+    <item component="ComponentInfo{com.cardo.smartset/com.cardo.smartset.mvp.splash.SplashActivity}" drawable="ic_cardo"/>
+
+    <!-- Premise Health -->
+    <item component="ComponentInfo{com.premisehealth.android/epic.mychart.android.library.prelogin.SplashActivity}" drawable="ic_premise"/>
+
+    <!-- SmartHub -->
+    <item component="ComponentInfo{coop.nisc.android.smarthub/coop.nisc.android.core.ui.activity.LoginActivity}" drawable="ic_smarthub"/>
+
+    <!-- Western FCU -->
+    <item component="ComponentInfo{com.westernfederalcreditunion5103.mobile.production/com.q2.app.core.ui.LauncherActivity}" drawable="ic_western_fcu"/>
+
+    <!-- BCBST -->
+    <item component="ComponentInfo{com.bcbst.mma/com.bcbst.mma.MainActivity}" drawable="ic_bcbst"/>
+
+    <!-- Firehouse Subs -->
+    <item component="ComponentInfo{com.ak.app.firehouse.activity/com.ak.app.firehouse.activity.MainActivity}" drawable="ic_firehouse"/>
+
+    <!-- Smoothie King -->
+    <item component="ComponentInfo{com.appsmyth.mobile.smoothieking/io.ionic.starter.MainActivity}" drawable="ic_smoothieking"/>
+
+    <!-- Academy Sports -->
+    <item component="ComponentInfo{com.academy.android/com.asomobile.MainActivity}" drawable="ic_academy"/>
+
+    <!-- Bass Pro Shops -->
+    <item component="ComponentInfo{com.basspro.bassprocommerce/com.basspro.bassprocommerce.activities.SplashActivity}" drawable="ic_basspro"/>
+
+    <!-- Buffalo Wild Wings -->
+    <item component="ComponentInfo{com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity}" drawable="ic_bww"/>
+
+    <!-- Cracker Barrel -->
+    <item component="ComponentInfo{com.crackerbarrel.app/com.crackerbarrel.app.MainActivity}" drawable="ic_crackerbarrel"/>
+
+    <!-- Cheddar's -->
+    <item component="ComponentInfo{com.darden.mobile.cheddars/com.darden.mobile.mapp.MainActivity}" drawable="ic_cheddars"/>
+
+    <!-- Olive Garden -->
+    <item component="ComponentInfo{com.darden.mobile.olivegarden/com.darden.mobile.mapp.MainActivity}" drawable="ic_olivegarden"/>
+
+    <!-- Jack in the Box -->
+    <item component="ComponentInfo{com.jacks.app/com.punchhapp.MainActivity}" drawable="ic_jackinthebox"/>
+
+    <!-- Outback -->
+    <item component="ComponentInfo{com.outback.tampa/com.bloomin.MainActivity}" drawable="ic_outback"/>
+
+    <!-- Salsarita's -->
+    <item component="ComponentInfo{com.salsaritas.app/com.koala.mobile.MainActivity}" drawable="ic_salsaritas"/>
+
+    <!-- McAlister's -->
+    <item component="ComponentInfo{com.snapfinger.mobile.mcalisters/com.focusbrands.mcalisters.dev.MainActivity}" drawable="ic_mcalisters"/>
+
+    <!-- Zaxby's -->
+    <item component="ComponentInfo{com.snapfinger.mobile.zaxbys/com.zaxbys.MainActivity}" drawable="ic_zaxbys"/>
+
+    <!-- ExxonMobil -->
+    <item component="ComponentInfo{com.webmarketing.exxonmpl/com.p97.exxonmobil.ui.activities.MainActivity}" drawable="ic_exxonmobil"/>
+
+    <!-- Alien: Isolation -->
+    <item component="ComponentInfo{com.feralinteractive.alienisolation_android/com.feralinteractive.alienisolation_android.MainActivity}" drawable="ic_alienisolation"/>
+
+    <!-- Door Kickers -->
+    <item component="ComponentInfo{com.khg.doorkickers/com.khg.doorkickers.MainActivity}" drawable="ic_doorkickers"/>
+
+    <!-- Tacticus -->
+    <item component="ComponentInfo{com.snowprintstudios.tacticus/com.snowprint.loki.LokiUnityPlayerActivity}" drawable="ic_tacticus"/>
+
+    <!-- Avenue Zombie -->
+    <item component="ComponentInfo{com.avenue.zombie.gp/com.refine.zombie.debug.UnityPlayerActivityCustom}" drawable="ic_avenuezombie"/>
+
+    <!-- Sinceus -->
+    <item component="ComponentInfo{app.sinceus/app.sinceus.MainActivity}" drawable="ic_sinceus"/>
+
+    <!-- Median App -->
+    <item component="ComponentInfo{co.median.android.zpqawxe/co.median.android.LaunchActivity}" drawable="ic_median"/>
+
+    <!-- PHS -->
+    <item component="ComponentInfo{com.phs.global/com.games37.sdk.AtlasPluginDemoActivity}" drawable="ic_phs"/>
+
+    <!-- Recreative -->
+    <item component="ComponentInfo{com.recreative.recreative01/com.recreative.recreative01.MainActivity}" drawable="ic_recreative"/>
+
+    <!-- ReFi Market -->
+    <item component="ComponentInfo{com.rm365.refivemarket/com.avinside.LaunchActivity}" drawable="ic_refi"/>
+
+    <!-- EDEH -->
+    <item component="ComponentInfo{com.socialchorus.edeh.android.googleplay/com.socialchorus.advodroid.activity.LauncherActivity}" drawable="ic_edeh"/>
+
+    <!-- GoKart -->
+    <item component="ComponentInfo{gokart.com.principal/gokart.com.principal.MainActivity}" drawable="ic_gokart"/>
+
+    <!-- Screen On Auto -->
+    <item component="ComponentInfo{idv.lzn.screenonauto/idv.lzn.screenonauto.MainActivity}" drawable="ic_screenonauto"/>
+
+    <!-- Hummingbird -->
+    <item component="ComponentInfo{com.molink.john.hummingbird/com.molink.john.hummingbird.activity.SplashActivity}" drawable="ic_hummingbird"/>
+
+    <!-- TSF Pay -->
+    <item component="ComponentInfo{com.tsfrm.tsfpaycanteen/com.avinside.LaunchActivity}" drawable="ic_tsf"/>
+
+    <!-- NIH ERG -->
+    <item component="ComponentInfo{gov.nih.nlm.erg2012/gov.nih.nlm.erg2012.Erg2024Launcher}" drawable="ic_nih_erg"/>
+
 </resources>
