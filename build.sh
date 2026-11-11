@@ -13,8 +13,8 @@ BT="$SDK/build-tools/35.0.0"
 PLATFORM="$SDK/platforms/android-35/android.jar"
 ADB="$SDK/platform-tools/adb"
 
-VERSION_CODE=5
-VERSION_NAME=3.1
+VERSION_CODE=6
+VERSION_NAME=3.2
 
 BUILD_ONLY=0
 [ "${1:-}" = "--build-only" ] && BUILD_ONLY=1

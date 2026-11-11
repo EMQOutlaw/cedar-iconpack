@@ -88,8 +88,23 @@ def render_glyph(svg_text, box_px):
 def build_tile(svg_text, cfg):
     canvas, ss, box = cfg["canvas"], cfg["supersample"], cfg["glyph_box"]
     tile = plate(canvas, ss)
-    glyph = render_glyph(recolour(svg_text, cfg["stroke_width"]), box * ss)
-    tile.alpha_composite(glyph, ((canvas - box) * ss // 2, (canvas - box) * ss // 2))
+    # Render at 2x the working box so glyphs whose art sits small inside the
+    # 48-grid (wordmarks, dots) can be scaled up without going soft.
+    render_px = box * ss * 2
+    glyph = render_glyph(recolour(svg_text, cfg["stroke_width"]), render_px)
+    # Normalise optical size: fit the actual ink, not the 48-unit canvas.
+    ink = glyph.getchannel("A").getbbox()
+    if ink:
+        glyph = glyph.crop(ink)
+    target = int(box * ss * 0.90)
+    if glyph.width and glyph.height:
+        scale = min(target / max(glyph.width, glyph.height), 6.0)
+        glyph = glyph.resize(
+            (max(1, round(glyph.width * scale)), max(1, round(glyph.height * scale))),
+            Image.Resampling.LANCZOS,
+        )
+    off = ((canvas * ss - glyph.width) // 2, (canvas * ss - glyph.height) // 2)
+    tile.alpha_composite(glyph, off)
     return tile.resize((canvas, canvas), Image.Resampling.LANCZOS)
 
 
