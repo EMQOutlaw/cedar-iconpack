@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs><style>.s{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}.f{fill:#000;stroke:none;}</style></defs>
+  <rect class="s" x="6" y="8" width="36" height="32" rx="4.5"/>
+  <path class="s" d="M14 16.5 V31.5"/>
+  <path class="s" d="M24 16.5 V31.5"/>
+  <path class="s" d="M34 16.5 V31.5"/>
+  <circle class="f" cx="14" cy="22" r="2.8"/>
+  <circle class="f" cx="24" cy="27" r="2.8"/>
+  <circle class="f" cx="34" cy="20" r="2.8"/>
+</svg>

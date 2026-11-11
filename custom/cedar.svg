@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs><style>.f{fill:#000;stroke:none;}</style></defs>
+  <g class="f">
+    <path d="M24 3.5 L31.5 14.5 H16.5 Z"/>
+    <path d="M24 11.5 L35.5 25 H12.5 Z"/>
+    <path d="M24 20.5 L40 36 H8 Z"/>
+    <rect x="21.5" y="35" width="5" height="9.5" rx="1.2"/>
+  </g>
+</svg>

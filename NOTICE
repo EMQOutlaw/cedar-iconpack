@@ -1,0 +1,25 @@
+CEDAR Icons (`org.cedar.iconpack`)
+Copyright (C) 2026 CEDAR Mobile
+
+This icon pack is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+Icon artwork notice
+-------------------
+Most glyphs in this pack are derived from Arcticons
+(https://github.com/Arcticons-Team/Arcticons), Copyright (C) Donno and
+Arcticons contributors, licensed under GPL-3.0.
+
+Modifications made by CEDAR: glyphs are recoloured from black to CEDAR sage
+(#7BA88A), stroke weight is normalised to 1.25 (48x48 grid), and each glyph is
+composited onto CEDAR's chamfered forest plate (#1A231D) with a dim-sage
+hairline. The originals remain available at the URL above.
+
+The CEDAR-original glyphs (cedar, strata, fieldstation, trailwatch, weather,
+vault, notes, tasks) were drawn for this project and are licensed under the
+same GPL-3.0 terms.
+
+The full GPL-3.0 text is in LICENSE. Source for this pack, including the
+generator scripts and the list of source icons, is this repository.

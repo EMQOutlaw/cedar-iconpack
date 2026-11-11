@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs><style>.s{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+  <rect class="s" x="8.5" y="8.5" width="9" height="9" rx="1.5"/>
+  <path class="s" d="M11 13 L13.2 15.2 L16.2 11.2"/>
+  <path class="s" d="M22.5 13 H40"/>
+  <rect class="s" x="8.5" y="21.5" width="9" height="9" rx="1.5"/>
+  <path class="s" d="M11 26 L13.2 28.2 L16.2 24.2"/>
+  <path class="s" d="M22.5 26 H40"/>
+  <rect class="s" x="8.5" y="34.5" width="9" height="9" rx="1.5"/>
+  <path class="s" d="M22.5 39 H40"/>
+</svg>

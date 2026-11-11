@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs><style>.s{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+  <rect class="s" x="12" y="7" width="24" height="12" rx="6"/>
+  <path class="s" d="M15 26 L24 32 L33 26"/>
+  <path class="s" d="M15 35.5 L24 41.5 L33 35.5"/>
+</svg>
