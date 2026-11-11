@@ -4,8 +4,11 @@ An installable Android icon pack that re-skins apps in CEDAR's visual language.
 Works with the CEDAR launcher (Kvaesitso fork) and any launcher that reads ADW
 `appfilter.xml` packs.
 
-**47 icons** — 39 app glyphs derived from [Arcticons](https://github.com/Arcticons-Team/Arcticons)
+**252 icons** — 244 app glyphs derived from [Arcticons](https://github.com/Arcticons-Team/Arcticons)
 plus 8 CEDAR-original glyphs.
+
+On the owner's phone (303 launchable components) this covers **262 apps**; the
+41 without upstream art are listed by `tools/audit_device.py` for hand-drawing.
 
 ## Visual language
 
@@ -83,6 +86,22 @@ The appfilter is built in three layers: explicit `components` in `icons.json`,
 then `data/legacy-appfilter.xml`, then every Arcticons component that maps to a
 glyph we ship. That third layer is where most of the coverage comes from —
 Arcticons has 51k verified package/activity pairs.
+
+## Cover a real phone
+
+```sh
+python3 tools/audit_device.py -s <host:port> --json /tmp/phone.json   # what's uncovered
+python3 tools/expand_from_device.py /tmp/phone.json                   # add every Arcticons-covered app
+python3 tools/render_icons.py && python3 tools/gen_appfilter.py
+```
+
+`audit_device.py` resolves every LAUNCHER component (all profiles) against the
+built appfilter. `expand_from_device.py` looks each uncovered component up in
+Arcticons — exact activity first, then any activity of the same package — and
+merges new entries into `icons.json`. Components that map to a concept CEDAR
+already ships (phone, contacts, files, calendar, weather, notes, translate) are
+appended to that icon instead of creating a near-duplicate. Whatever remains has
+no upstream art and genuinely needs drawing.
 
 ## Build requirements
 

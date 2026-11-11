@@ -13,8 +13,8 @@ BT="$SDK/build-tools/35.0.0"
 PLATFORM="$SDK/platforms/android-35/android.jar"
 ADB="$SDK/platform-tools/adb"
 
-VERSION_CODE=3
-VERSION_NAME=2.1
+VERSION_CODE=5
+VERSION_NAME=3.1
 
 BUILD_ONLY=0
 [ "${1:-}" = "--build-only" ] && BUILD_ONLY=1
@@ -41,9 +41,13 @@ if [ "$BUILD_ONLY" = "1" ]; then
   exit 0
 fi
 
-if "$ADB" get-state >/dev/null 2>&1; then
+if [ -n "${ANDROID_SERIAL:-}" ]; then
+  "$ADB" -s "$ANDROID_SERIAL" install -r build/cedar-iconpack.apk
+  echo "Installed org.cedar.iconpack on $ANDROID_SERIAL"
+elif [ "$("$ADB" devices | awk '$2=="device"' | wc -l)" = "1" ]; then
   "$ADB" install -r build/cedar-iconpack.apk
-  echo "Installed org.cedar.iconpack on $("$ADB" get-state)"
+  echo "Installed org.cedar.iconpack on the only connected device"
 else
-  echo "No device attached — APK built but not installed."
+  echo "No single device attached — APK built but not installed."
+  echo "Set ANDROID_SERIAL=<serial> (see: adb devices) to install on a specific one."
 fi

@@ -1,8 +1,8 @@
 {
   "pack": {
     "name": "CEDAR Icons",
-    "version_name": "2.1",
-    "version_code": 3,
+    "version_name": "3.1",
+    "version_code": 5,
     "license": "GPL-3.0-or-later",
     "upstream": "Arcticons (https://github.com/Arcticons-Team/Arcticons), GPL-3.0"
   },
@@ -13,75 +13,1361 @@
     "stroke_width": 1.25
   },
   "icons": [
-    {"drawable": "ic_phone", "label": "Phone", "arcticons": "google_phone",
-     "components": ["com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity"]},
-    {"drawable": "ic_messages", "label": "Messages", "arcticons": "google_messages",
-     "components": ["com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity"]},
-    {"drawable": "ic_chrome", "label": "Chrome", "arcticons": "google_chrome",
-     "components": ["com.android.chrome/com.google.android.apps.chrome.Main"]},
-    {"drawable": "ic_camera", "label": "Camera", "arcticons": "camera",
-     "components": ["com.android.camera2/com.android.camera.CameraLauncher"]},
-    {"drawable": "ic_clock", "label": "Clock", "arcticons": "clock",
-     "components": ["com.google.android.deskclock/com.android.deskclock.DeskClock"]},
-    {"drawable": "ic_contacts", "label": "Contacts", "arcticons": "google_contacts",
-     "components": ["com.google.android.contacts/com.android.contacts.activities.PeopleActivity"]},
-    {"drawable": "ic_files", "label": "Files", "arcticons": "google_files",
-     "components": ["com.google.android.documentsui/com.android.documentsui.LauncherActivity"]},
-    {"drawable": "ic_gmail", "label": "Gmail", "arcticons": "google_mail",
-     "components": ["com.google.android.gm/com.google.android.gm.ConversationListActivityGmail"]},
-    {"drawable": "ic_google", "label": "Google", "arcticons": "google",
-     "components": ["com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity"]},
-    {"drawable": "ic_maps", "label": "Maps", "arcticons": "google_maps",
-     "components": ["com.google.android.apps.maps/com.google.android.maps.MapsActivity"]},
-    {"drawable": "ic_photos", "label": "Photos", "arcticons": "google_photos",
-     "components": ["com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity"]},
-    {"drawable": "ic_settings", "label": "Settings", "arcticons": "settings",
-     "components": ["com.android.settings/com.android.settings.Settings"]},
-    {"drawable": "ic_youtube", "label": "YouTube", "arcticons": "youtube",
-     "components": ["com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity"]},
-    {"drawable": "ic_calendar", "label": "Calendar", "arcticons": "calendar_google_31",
-     "components": ["com.google.android.calendar/com.android.calendar.AllInOneActivity"]},
-    {"drawable": "ic_drive", "label": "Drive", "arcticons": "google_drive",
-     "components": ["com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity"]},
-    {"drawable": "ic_playstore", "label": "Play Store", "arcticons": "google_play_store"},
-    {"drawable": "ic_calculator", "label": "Calculator", "arcticons": "calculator"},
-    {"drawable": "ic_sim", "label": "SIM Toolkit", "arcticons": "sim",
-     "components": ["com.android.stk/com.android.stk.StkMain"]},
-    {"drawable": "ic_safety", "label": "Safety Hub", "arcticons": "safety",
-     "components": ["com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity"]},
-    {"drawable": "ic_recorder", "label": "Recorder", "arcticons": "recorder"},
-    {"drawable": "ic_ytmusic", "label": "YouTube Music", "arcticons": "youtube_music",
-     "components": ["com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity"]},
-    {"drawable": "ic_gemini", "label": "Gemini", "arcticons": "google_gemini"},
-
-    {"drawable": "ic_whatsapp", "label": "WhatsApp", "arcticons": "whatsapp"},
-    {"drawable": "ic_telegram", "label": "Telegram", "arcticons": "telegram"},
-    {"drawable": "ic_signal", "label": "Signal", "arcticons": "signal"},
-    {"drawable": "ic_instagram", "label": "Instagram", "arcticons": "instagram"},
-    {"drawable": "ic_facebook", "label": "Facebook", "arcticons": "facebook"},
-    {"drawable": "ic_x", "label": "X", "arcticons": "twitter"},
-    {"drawable": "ic_reddit", "label": "Reddit", "arcticons": "reddit"},
-    {"drawable": "ic_discord", "label": "Discord", "arcticons": "discord"},
-    {"drawable": "ic_spotify", "label": "Spotify", "arcticons": "spotify"},
-    {"drawable": "ic_netflix", "label": "Netflix", "arcticons": "netflix"},
-    {"drawable": "ic_twitch", "label": "Twitch", "arcticons": "twitch"},
-    {"drawable": "ic_notion", "label": "Notion", "arcticons": "notion"},
-    {"drawable": "ic_obsidian", "label": "Obsidian", "arcticons": "obsidian"},
-    {"drawable": "ic_keep", "label": "Keep", "arcticons": "google_keep"},
-    {"drawable": "ic_translate", "label": "Translate", "arcticons": "google_translate"},
-    {"drawable": "ic_wallet", "label": "Wallet", "arcticons": "google_wallet"},
-    {"drawable": "ic_podcasts", "label": "Podcasts", "arcticons": "podcasts"},
-
-    {"drawable": "ic_cedar", "label": "CEDAR", "custom": "cedar.svg", "pack_icon": true,
-     "components": ["org.cedar.launcher/de.mm20.launcher2.ui.launcher.LauncherActivity",
-                    "org.cedar.launcher.debug/de.mm20.launcher2.ui.launcher.LauncherActivity",
-                    "org.cedar.iconpack/org.cedar.iconpack.ThemeActivity"]},
-    {"drawable": "ic_strata", "label": "Strata", "custom": "strata.svg"},
-    {"drawable": "ic_fieldstation", "label": "Field Station", "custom": "fieldstation.svg"},
-    {"drawable": "ic_trailwatch", "label": "Trailwatch", "custom": "trailwatch.svg"},
-    {"drawable": "ic_weather", "label": "Weather", "custom": "weather.svg"},
-    {"drawable": "ic_vault", "label": "Vault", "custom": "vault.svg"},
-    {"drawable": "ic_notes", "label": "Notes", "custom": "notes.svg"},
-    {"drawable": "ic_tasks", "label": "Tasks", "custom": "tasks.svg"}
+    {
+      "drawable": "ic_phone",
+      "label": "Phone",
+      "arcticons": "google_phone",
+      "components": [
+        "com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity",
+        "com.android.contacts/com.android.contacts.DialtactsActivityAlias",
+        "com.android.dialer/com.android.dialer.main.impl.MainActivity",
+        "io.github.securephoneapps.securedialer/com.example.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_messages",
+      "label": "Messages",
+      "arcticons": "google_messages",
+      "components": [
+        "com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity"
+      ]
+    },
+    {
+      "drawable": "ic_chrome",
+      "label": "Chrome",
+      "arcticons": "google_chrome",
+      "components": [
+        "com.android.chrome/com.google.android.apps.chrome.Main"
+      ]
+    },
+    {
+      "drawable": "ic_camera",
+      "label": "Camera",
+      "arcticons": "camera",
+      "components": [
+        "com.android.camera2/com.android.camera.CameraLauncher"
+      ]
+    },
+    {
+      "drawable": "ic_clock",
+      "label": "Clock",
+      "arcticons": "clock",
+      "components": [
+        "com.google.android.deskclock/com.android.deskclock.DeskClock"
+      ]
+    },
+    {
+      "drawable": "ic_contacts",
+      "label": "Contacts",
+      "arcticons": "google_contacts",
+      "components": [
+        "com.google.android.contacts/com.android.contacts.activities.PeopleActivity",
+        "com.android.contacts/com.android.contacts.PeopleActivityAlias"
+      ]
+    },
+    {
+      "drawable": "ic_files",
+      "label": "Files",
+      "arcticons": "google_files",
+      "components": [
+        "com.google.android.documentsui/com.android.documentsui.LauncherActivity",
+        "andes.oplus.documentsreader/andes.oplus.documentsreader.launcher.activity.MainActivity",
+        "com.buge.files/com.buge.files.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_gmail",
+      "label": "Gmail",
+      "arcticons": "google_mail",
+      "components": [
+        "com.google.android.gm/com.google.android.gm.ConversationListActivityGmail"
+      ]
+    },
+    {
+      "drawable": "ic_google",
+      "label": "Google",
+      "arcticons": "google",
+      "components": [
+        "com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity"
+      ]
+    },
+    {
+      "drawable": "ic_maps",
+      "label": "Maps",
+      "arcticons": "google_maps",
+      "components": [
+        "com.google.android.apps.maps/com.google.android.maps.MapsActivity"
+      ]
+    },
+    {
+      "drawable": "ic_photos",
+      "label": "Photos",
+      "arcticons": "google_photos",
+      "components": [
+        "com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity"
+      ]
+    },
+    {
+      "drawable": "ic_settings",
+      "label": "Settings",
+      "arcticons": "settings",
+      "components": [
+        "com.android.settings/com.android.settings.Settings"
+      ]
+    },
+    {
+      "drawable": "ic_youtube",
+      "label": "YouTube",
+      "arcticons": "youtube",
+      "components": [
+        "com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+      ]
+    },
+    {
+      "drawable": "ic_calendar",
+      "label": "Calendar",
+      "arcticons": "calendar_google_31",
+      "components": [
+        "com.google.android.calendar/com.android.calendar.AllInOneActivity",
+        "com.soluce.nextcloudcalendar/com.soluce.nextcloudcalendar.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_drive",
+      "label": "Drive",
+      "arcticons": "google_drive",
+      "components": [
+        "com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity"
+      ]
+    },
+    {
+      "drawable": "ic_playstore",
+      "label": "Play Store",
+      "arcticons": "google_play_store"
+    },
+    {
+      "drawable": "ic_calculator",
+      "label": "Calculator",
+      "arcticons": "calculator"
+    },
+    {
+      "drawable": "ic_sim",
+      "label": "SIM Toolkit",
+      "arcticons": "sim",
+      "components": [
+        "com.android.stk/com.android.stk.StkMain"
+      ]
+    },
+    {
+      "drawable": "ic_safety",
+      "label": "Safety Hub",
+      "arcticons": "safety",
+      "components": [
+        "com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity"
+      ]
+    },
+    {
+      "drawable": "ic_recorder",
+      "label": "Recorder",
+      "arcticons": "recorder"
+    },
+    {
+      "drawable": "ic_ytmusic",
+      "label": "YouTube Music",
+      "arcticons": "youtube_music",
+      "components": [
+        "com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity"
+      ]
+    },
+    {
+      "drawable": "ic_gemini",
+      "label": "Gemini",
+      "arcticons": "google_gemini"
+    },
+    {
+      "drawable": "ic_whatsapp",
+      "label": "WhatsApp",
+      "arcticons": "whatsapp"
+    },
+    {
+      "drawable": "ic_telegram",
+      "label": "Telegram",
+      "arcticons": "telegram"
+    },
+    {
+      "drawable": "ic_signal",
+      "label": "Signal",
+      "arcticons": "signal"
+    },
+    {
+      "drawable": "ic_instagram",
+      "label": "Instagram",
+      "arcticons": "instagram"
+    },
+    {
+      "drawable": "ic_facebook",
+      "label": "Facebook",
+      "arcticons": "facebook"
+    },
+    {
+      "drawable": "ic_x",
+      "label": "X",
+      "arcticons": "twitter"
+    },
+    {
+      "drawable": "ic_reddit",
+      "label": "Reddit",
+      "arcticons": "reddit"
+    },
+    {
+      "drawable": "ic_discord",
+      "label": "Discord",
+      "arcticons": "discord"
+    },
+    {
+      "drawable": "ic_spotify",
+      "label": "Spotify",
+      "arcticons": "spotify"
+    },
+    {
+      "drawable": "ic_netflix",
+      "label": "Netflix",
+      "arcticons": "netflix"
+    },
+    {
+      "drawable": "ic_twitch",
+      "label": "Twitch",
+      "arcticons": "twitch"
+    },
+    {
+      "drawable": "ic_notion",
+      "label": "Notion",
+      "arcticons": "notion"
+    },
+    {
+      "drawable": "ic_obsidian",
+      "label": "Obsidian",
+      "arcticons": "obsidian"
+    },
+    {
+      "drawable": "ic_keep",
+      "label": "Keep",
+      "arcticons": "google_keep"
+    },
+    {
+      "drawable": "ic_translate",
+      "label": "Translate",
+      "arcticons": "google_translate",
+      "components": [
+        "com.coloros.translate/com.coloros.translate.ui.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_wallet",
+      "label": "Wallet",
+      "arcticons": "google_wallet"
+    },
+    {
+      "drawable": "ic_podcasts",
+      "label": "Podcasts",
+      "arcticons": "podcasts"
+    },
+    {
+      "drawable": "ic_cedar",
+      "label": "CEDAR",
+      "custom": "cedar.svg",
+      "pack_icon": true,
+      "components": [
+        "org.cedar.launcher/de.mm20.launcher2.ui.launcher.LauncherActivity",
+        "org.cedar.launcher.debug/de.mm20.launcher2.ui.launcher.LauncherActivity",
+        "org.cedar.iconpack/org.cedar.iconpack.ThemeActivity",
+        "org.cedar.launcher.nightly/de.mm20.launcher2.ui.launcher.LauncherActivity"
+      ]
+    },
+    {
+      "drawable": "ic_strata",
+      "label": "Strata",
+      "custom": "strata.svg"
+    },
+    {
+      "drawable": "ic_fieldstation",
+      "label": "Field Station",
+      "custom": "fieldstation.svg"
+    },
+    {
+      "drawable": "ic_trailwatch",
+      "label": "Trailwatch",
+      "custom": "trailwatch.svg"
+    },
+    {
+      "drawable": "ic_weather",
+      "label": "Weather",
+      "custom": "weather.svg",
+      "components": [
+        "com.coloros.weather2/com.oplus.weather.main.view.WeatherMainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_vault",
+      "label": "Vault",
+      "custom": "vault.svg"
+    },
+    {
+      "drawable": "ic_notes",
+      "label": "Notes",
+      "custom": "notes.svg",
+      "components": [
+        "com.coloros.note/com.nearme.note.main.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_tasks",
+      "label": "Tasks",
+      "custom": "tasks.svg"
+    },
+    {
+      "drawable": "ic_perplexity",
+      "label": "Perplexity",
+      "arcticons": "perplexity"
+    },
+    {
+      "drawable": "ic_niagara_launcher",
+      "label": "Niagara Launcher",
+      "arcticons": "niagara_launcher"
+    },
+    {
+      "drawable": "ic_kwgt_generic_app",
+      "label": "KWGT Widget",
+      "arcticons": "kwgt_generic_app",
+      "components": [
+        "com.essentia.kwgt/com.essentia.kwgt.MainActivity",
+        "minimal.zeffi.kwgt/minimal.zeffi.kwgt.MainActivity",
+        "com.m57.hermescontrol/com.m57.hermescontrol.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_proton_mail",
+      "label": "Proton Mail",
+      "arcticons": "proton_mail"
+    },
+    {
+      "drawable": "ic_proton_vpn",
+      "label": "Proton VPN",
+      "arcticons": "proton_vpn"
+    },
+    {
+      "drawable": "ic_chipolo",
+      "label": "Chipolo",
+      "arcticons": "chipolo"
+    },
+    {
+      "drawable": "ic_advance_auto_parts",
+      "label": "Advance Auto Parts",
+      "arcticons": "advance_auto_parts"
+    },
+    {
+      "drawable": "ic_affirm",
+      "label": "Affirm",
+      "arcticons": "affirm"
+    },
+    {
+      "drawable": "ic_afterpay",
+      "label": "Afterpay",
+      "arcticons": "afterpay"
+    },
+    {
+      "drawable": "ic_airbnb",
+      "label": "Airbnb",
+      "arcticons": "airbnb"
+    },
+    {
+      "drawable": "ic_palette",
+      "label": "Palette",
+      "arcticons": "palette"
+    },
+    {
+      "drawable": "ic_aliexpress",
+      "label": "Aliexpress",
+      "arcticons": "aliexpress"
+    },
+    {
+      "drawable": "ic_alltrails",
+      "label": "Alltrails",
+      "arcticons": "alltrails"
+    },
+    {
+      "drawable": "ic_amazon_prime_video",
+      "label": "Prime Video",
+      "arcticons": "amazon_prime_video"
+    },
+    {
+      "drawable": "ic_kindle",
+      "label": "Kindle",
+      "arcticons": "kindle"
+    },
+    {
+      "drawable": "ic_amazon_shopping",
+      "label": "Amazon",
+      "arcticons": "amazon_shopping"
+    },
+    {
+      "drawable": "ic_amc_theatres",
+      "label": "Amc Theatres",
+      "arcticons": "amc_theatres"
+    },
+    {
+      "drawable": "ic_claude",
+      "label": "Claude",
+      "arcticons": "claude"
+    },
+    {
+      "drawable": "ic_apkmirror_installer",
+      "label": "Apkmirror Installer",
+      "arcticons": "apkmirror_installer"
+    },
+    {
+      "drawable": "ic_arbys",
+      "label": "Arbys",
+      "arcticons": "arbys"
+    },
+    {
+      "drawable": "ic_asus_router",
+      "label": "Asus Router",
+      "arcticons": "asus_router"
+    },
+    {
+      "drawable": "ic_audible",
+      "label": "Audible",
+      "arcticons": "audible"
+    },
+    {
+      "drawable": "ic_aurora_store",
+      "label": "Aurora Store",
+      "arcticons": "aurora_store"
+    },
+    {
+      "drawable": "ic_bestbuy",
+      "label": "Bestbuy",
+      "arcticons": "bestbuy"
+    },
+    {
+      "drawable": "ic_falloutshelter",
+      "label": "Falloutshelter",
+      "arcticons": "falloutshelter"
+    },
+    {
+      "drawable": "ic_zwart",
+      "label": "Zwart",
+      "arcticons": "zwart"
+    },
+    {
+      "drawable": "ic_rustdesk",
+      "label": "Rustdesk",
+      "arcticons": "rustdesk"
+    },
+    {
+      "drawable": "ic_chewy",
+      "label": "Chewy",
+      "arcticons": "chewy"
+    },
+    {
+      "drawable": "ic_chickfila",
+      "label": "Chickfila",
+      "arcticons": "chickfila"
+    },
+    {
+      "drawable": "ic_webex",
+      "label": "Webex",
+      "arcticons": "webex"
+    },
+    {
+      "drawable": "ic_coinbase",
+      "label": "Coinbase",
+      "arcticons": "coinbase"
+    },
+    {
+      "drawable": "ic_clone_phone",
+      "label": "Clone Phone",
+      "arcticons": "clone_phone"
+    },
+    {
+      "drawable": "ic_compass",
+      "label": "Compass",
+      "arcticons": "compass"
+    },
+    {
+      "drawable": "ic_folder",
+      "label": "Folder",
+      "arcticons": "folder"
+    },
+    {
+      "drawable": "ic_gallery",
+      "label": "Gallery",
+      "arcticons": "gallery"
+    },
+    {
+      "drawable": "ic_lock",
+      "label": "Lock",
+      "arcticons": "lock"
+    },
+    {
+      "drawable": "ic_mediaplayer",
+      "label": "Media Player",
+      "arcticons": "mediaplayer",
+      "components": [
+        "com.necroware.terminusplayer/com.necroware.terminusplayer.MainActivity"
+      ]
+    },
+    {
+      "drawable": "ic_costco",
+      "label": "Costco",
+      "arcticons": "costco"
+    },
+    {
+      "drawable": "ic_credit_karma",
+      "label": "Credit Karma",
+      "arcticons": "credit_karma"
+    },
+    {
+      "drawable": "ic_crunchyroll",
+      "label": "Crunchyroll",
+      "arcticons": "crunchyroll"
+    },
+    {
+      "drawable": "ic_doordash",
+      "label": "Doordash",
+      "arcticons": "doordash"
+    },
+    {
+      "drawable": "ic_deepl",
+      "label": "Deepl",
+      "arcticons": "deepl"
+    },
+    {
+      "drawable": "ic_dhl_express",
+      "label": "Dhl Express",
+      "arcticons": "dhl_express"
+    },
+    {
+      "drawable": "ic_disney",
+      "label": "Disney",
+      "arcticons": "disney"
+    },
+    {
+      "drawable": "ic_dominos",
+      "label": "Dominos",
+      "arcticons": "dominos"
+    },
+    {
+      "drawable": "ic_arcticons_material_you",
+      "label": "Arcticons Material You",
+      "arcticons": "arcticons_material_you"
+    },
+    {
+      "drawable": "ic_arcticons",
+      "label": "Arcticons",
+      "arcticons": "arcticons"
+    },
+    {
+      "drawable": "ic_dunkin_donuts",
+      "label": "Dunkin Donuts",
+      "arcticons": "dunkin_donuts"
+    },
+    {
+      "drawable": "ic_icon_pack",
+      "label": "Icon Pack",
+      "arcticons": "icon_pack",
+      "components": [
+        "com.akshaykadam.pixelboard/com.google.android.libraries.inputmethod.launcher.LauncherActivity"
+      ]
+    },
+    {
+      "drawable": "ic_ebay",
+      "label": "Ebay",
+      "arcticons": "ebay"
+    },
+    {
+      "drawable": "ic_letter_lowercase_square_e",
+      "label": "App",
+      "arcticons": "letter_lowercase_square_e"
+    },
+    {
+      "drawable": "ic_burger_king",
+      "label": "Burger King",
+      "arcticons": "burger_king"
+    },
+    {
+      "drawable": "ic_epic_games",
+      "label": "Epic Games",
+      "arcticons": "epic_games"
+    },
+    {
+      "drawable": "ic_etsy",
+      "label": "Etsy",
+      "arcticons": "etsy"
+    },
+    {
+      "drawable": "ic_even",
+      "label": "Even",
+      "arcticons": "even"
+    },
+    {
+      "drawable": "ic_expedia",
+      "label": "Expedia",
+      "arcticons": "expedia"
+    },
+    {
+      "drawable": "ic_circle",
+      "label": "Circle",
+      "arcticons": "circle"
+    },
+    {
+      "drawable": "ic_ddbplayer",
+      "label": "DDB Player",
+      "arcticons": "ddbplayer"
+    },
+    {
+      "drawable": "ic_fedex",
+      "label": "Fedex",
+      "arcticons": "fedex"
+    },
+    {
+      "drawable": "ic_fiverr",
+      "label": "Fiverr",
+      "arcticons": "fiverr"
+    },
+    {
+      "drawable": "ic_flipper",
+      "label": "Flipper",
+      "arcticons": "flipper"
+    },
+    {
+      "drawable": "ic_last_war",
+      "label": "Last War",
+      "arcticons": "last_war"
+    },
+    {
+      "drawable": "ic_chess",
+      "label": "Chess",
+      "arcticons": "chess"
+    },
+    {
+      "drawable": "ic_xtra",
+      "label": "Xtra",
+      "arcticons": "xtra"
+    },
+    {
+      "drawable": "ic_cache_cleaner",
+      "label": "Cache Cleaner",
+      "arcticons": "cache_cleaner"
+    },
+    {
+      "drawable": "ic_google_find_device",
+      "label": "Find Device",
+      "arcticons": "google_find_device"
+    },
+    {
+      "drawable": "ic_google_home",
+      "label": "Google Home",
+      "arcticons": "google_home"
+    },
+    {
+      "drawable": "ic_google_one",
+      "label": "Google One",
+      "arcticons": "google_one"
+    },
+    {
+      "drawable": "ic_google_meet",
+      "label": "Meet",
+      "arcticons": "google_meet"
+    },
+    {
+      "drawable": "ic_google_tv",
+      "label": "Google TV",
+      "arcticons": "google_tv"
+    },
+    {
+      "drawable": "ic_google_lens",
+      "label": "Google Lens",
+      "arcticons": "google_lens"
+    },
+    {
+      "drawable": "ic_govee_home",
+      "label": "Govee Home",
+      "arcticons": "govee_home"
+    },
+    {
+      "drawable": "ic_gymmane",
+      "label": "Gymmane",
+      "arcticons": "gymmane"
+    },
+    {
+      "drawable": "ic_heart",
+      "label": "Heart",
+      "arcticons": "heart"
+    },
+    {
+      "drawable": "ic_ohealth",
+      "label": "OHealth",
+      "arcticons": "ohealth"
+    },
+    {
+      "drawable": "ic_hulu",
+      "label": "Hulu",
+      "arcticons": "hulu"
+    },
+    {
+      "drawable": "ic_instacart",
+      "label": "Instacart",
+      "arcticons": "instacart"
+    },
+    {
+      "drawable": "ic_instagram_threads",
+      "label": "Threads",
+      "arcticons": "instagram_threads",
+      "components": [
+        "com.instagram.android.oxbow/com.instagram.android.activity.MainTabActivity"
+      ]
+    },
+    {
+      "drawable": "ic_irobot",
+      "label": "Irobot",
+      "arcticons": "irobot"
+    },
+    {
+      "drawable": "ic_jimmy_johns",
+      "label": "Jimmy Johns",
+      "arcticons": "jimmy_johns"
+    },
+    {
+      "drawable": "ic_linex",
+      "label": "Linex",
+      "arcticons": "linex"
+    },
+    {
+      "drawable": "ic_nothing_icon_pack",
+      "label": "Nothing Icon Pack",
+      "arcticons": "nothing_icon_pack"
+    },
+    {
+      "drawable": "ic_kfc",
+      "label": "KFC",
+      "arcticons": "kfc"
+    },
+    {
+      "drawable": "ic_capitalone",
+      "label": "Capitalone",
+      "arcticons": "capitalone"
+    },
+    {
+      "drawable": "ic_wuthering_waves",
+      "label": "Wuthering Waves",
+      "arcticons": "wuthering_waves"
+    },
+    {
+      "drawable": "ic_keyboard",
+      "label": "Keyboard",
+      "arcticons": "keyboard"
+    },
+    {
+      "drawable": "ic_life",
+      "label": "Life",
+      "arcticons": "life"
+    },
+    {
+      "drawable": "ic_linkedin",
+      "label": "Linkedin",
+      "arcticons": "linkedin"
+    },
+    {
+      "drawable": "ic_little_caesars",
+      "label": "Little Caesars",
+      "arcticons": "little_caesars"
+    },
+    {
+      "drawable": "ic_droidify",
+      "label": "Droidify",
+      "arcticons": "droidify"
+    },
+    {
+      "drawable": "ic_lowes",
+      "label": "Lowes",
+      "arcticons": "lowes"
+    },
+    {
+      "drawable": "ic_mcdonalds",
+      "label": "Mcdonalds",
+      "arcticons": "mcdonalds"
+    },
+    {
+      "drawable": "ic_reolink",
+      "label": "Reolink",
+      "arcticons": "reolink"
+    },
+    {
+      "drawable": "ic_genshin_impact",
+      "label": "Genshin Impact",
+      "arcticons": "genshin_impact"
+    },
+    {
+      "drawable": "ic_plagueinc",
+      "label": "Plagueinc",
+      "arcticons": "plagueinc"
+    },
+    {
+      "drawable": "ic_minecraft",
+      "label": "Minecraft",
+      "arcticons": "minecraft"
+    },
+    {
+      "drawable": "ic_monarch",
+      "label": "Monarch",
+      "arcticons": "monarch"
+    },
+    {
+      "drawable": "ic_klarna",
+      "label": "Klarna",
+      "arcticons": "klarna"
+    },
+    {
+      "drawable": "ic_tetris",
+      "label": "Tetris",
+      "arcticons": "tetris"
+    },
+    {
+      "drawable": "ic_game_center",
+      "label": "Game Center",
+      "arcticons": "game_center"
+    },
+    {
+      "drawable": "ic_newegg",
+      "label": "Newegg",
+      "arcticons": "newegg"
+    },
+    {
+      "drawable": "ic_nextcloudtalk",
+      "label": "Nextcloudtalk",
+      "arcticons": "nextcloudtalk"
+    },
+    {
+      "drawable": "ic_nothing_icons",
+      "label": "Nothing Icons",
+      "arcticons": "nothing_icons"
+    },
+    {
+      "drawable": "ic_nothing_x",
+      "label": "Nothing X",
+      "arcticons": "nothing_x"
+    },
+    {
+      "drawable": "ic_oculus",
+      "label": "Oculus",
+      "arcticons": "oculus"
+    },
+    {
+      "drawable": "ic_okta_verify",
+      "label": "Okta Verify",
+      "arcticons": "okta_verify"
+    },
+    {
+      "drawable": "ic_one",
+      "label": "One",
+      "arcticons": "one"
+    },
+    {
+      "drawable": "ic_openai_chatgpt",
+      "label": "ChatGPT",
+      "arcticons": "openai_chatgpt"
+    },
+    {
+      "drawable": "ic_mind_space",
+      "label": "Mind Space",
+      "arcticons": "mind_space"
+    },
+    {
+      "drawable": "ic_ir_remote",
+      "label": "IR Remote",
+      "arcticons": "ir_remote"
+    },
+    {
+      "drawable": "ic_games",
+      "label": "Games",
+      "arcticons": "games"
+    },
+    {
+      "drawable": "ic_my_oppo",
+      "label": "My OPPO",
+      "arcticons": "my_oppo"
+    },
+    {
+      "drawable": "ic_theme_store",
+      "label": "Theme Store",
+      "arcticons": "theme_store"
+    },
+    {
+      "drawable": "ic_orionstore",
+      "label": "Orionstore",
+      "arcticons": "orionstore"
+    },
+    {
+      "drawable": "ic_panda_express",
+      "label": "Panda Express",
+      "arcticons": "panda_express"
+    },
+    {
+      "drawable": "ic_panera",
+      "label": "Panera",
+      "arcticons": "panera"
+    },
+    {
+      "drawable": "ic_papa_johns",
+      "label": "Papa Johns",
+      "arcticons": "papa_johns"
+    },
+    {
+      "drawable": "ic_paperknife",
+      "label": "Paperknife",
+      "arcticons": "paperknife"
+    },
+    {
+      "drawable": "ic_patreon",
+      "label": "Patreon",
+      "arcticons": "patreon"
+    },
+    {
+      "drawable": "ic_paypal",
+      "label": "Paypal",
+      "arcticons": "paypal"
+    },
+    {
+      "drawable": "ic_progressive",
+      "label": "Progressive",
+      "arcticons": "progressive"
+    },
+    {
+      "drawable": "ic_photo_roulette",
+      "label": "Photo Roulette",
+      "arcticons": "photo_roulette"
+    },
+    {
+      "drawable": "ic_planet_fitness",
+      "label": "Planet Fitness",
+      "arcticons": "planet_fitness"
+    },
+    {
+      "drawable": "ic_bank_1",
+      "label": "Bank",
+      "arcticons": "bank_1"
+    },
+    {
+      "drawable": "ic_renpho_health",
+      "label": "Renpho Health",
+      "arcticons": "renpho_health"
+    },
+    {
+      "drawable": "ic_team_fight_tactics",
+      "label": "Teamfight Tactics",
+      "arcticons": "team_fight_tactics"
+    },
+    {
+      "drawable": "ic_rode_central",
+      "label": "Rode Central",
+      "arcticons": "rode_central"
+    },
+    {
+      "drawable": "ic_saily",
+      "label": "Saily",
+      "arcticons": "saily"
+    },
+    {
+      "drawable": "ic_ps_app",
+      "label": "PS App",
+      "arcticons": "ps_app"
+    },
+    {
+      "drawable": "ic_jersey_mikes",
+      "label": "Jersey Mikes",
+      "arcticons": "jersey_mikes"
+    },
+    {
+      "drawable": "ic_shazam",
+      "label": "Shazam",
+      "arcticons": "shazam"
+    },
+    {
+      "drawable": "ic_shop",
+      "label": "Shop",
+      "arcticons": "shop"
+    },
+    {
+      "drawable": "ic_bible",
+      "label": "Bible",
+      "arcticons": "bible"
+    },
+    {
+      "drawable": "ic_snapchat",
+      "label": "Snapchat",
+      "arcticons": "snapchat"
+    },
+    {
+      "drawable": "ic_sonic_restaurant",
+      "label": "Sonic Restaurant",
+      "arcticons": "sonic_restaurant"
+    },
+    {
+      "drawable": "ic_sony_sound_connect",
+      "label": "Sony Sound Connect",
+      "arcticons": "sony_sound_connect"
+    },
+    {
+      "drawable": "ic_muviz_edge",
+      "label": "Muviz Edge",
+      "arcticons": "muviz_edge"
+    },
+    {
+      "drawable": "ic_widget",
+      "label": "Widget",
+      "arcticons": "widget"
+    },
+    {
+      "drawable": "ic_currency_dollar",
+      "label": "Currency",
+      "arcticons": "currency_dollar"
+    },
+    {
+      "drawable": "ic_subway",
+      "label": "Subway",
+      "arcticons": "subway"
+    },
+    {
+      "drawable": "ic_suno",
+      "label": "Suno",
+      "arcticons": "suno"
+    },
+    {
+      "drawable": "ic_clash_of_clans",
+      "label": "Clash Of Clans",
+      "arcticons": "clash_of_clans"
+    },
+    {
+      "drawable": "ic_clash_royale",
+      "label": "Clash Royale",
+      "arcticons": "clash_royale"
+    },
+    {
+      "drawable": "ic_amazon_store_card",
+      "label": "Amazon Store Card",
+      "arcticons": "amazon_store_card"
+    },
+    {
+      "drawable": "ic_taco_bell",
+      "label": "Taco Bell",
+      "arcticons": "taco_bell"
+    },
+    {
+      "drawable": "ic_tailscale",
+      "label": "Tailscale",
+      "arcticons": "tailscale"
+    },
+    {
+      "drawable": "ic_termux",
+      "label": "Termux",
+      "arcticons": "termux"
+    },
+    {
+      "drawable": "ic_nova_launcher",
+      "label": "Nova Launcher",
+      "arcticons": "nova_launcher"
+    },
+    {
+      "drawable": "ic_home_depot",
+      "label": "Home Depot",
+      "arcticons": "home_depot"
+    },
+    {
+      "drawable": "ic_tiktok_lite",
+      "label": "Tiktok Lite",
+      "arcticons": "tiktok_lite"
+    },
+    {
+      "drawable": "ic_tether",
+      "label": "Tether",
+      "arcticons": "tether"
+    },
+    {
+      "drawable": "ic_idle_fantasy",
+      "label": "Idle Fantasy",
+      "arcticons": "idle_fantasy"
+    },
+    {
+      "drawable": "ic_coffee",
+      "label": "Coffee",
+      "arcticons": "coffee"
+    },
+    {
+      "drawable": "ic_ups",
+      "label": "UPS",
+      "arcticons": "ups"
+    },
+    {
+      "drawable": "ic_usps_mobile",
+      "label": "USPS",
+      "arcticons": "usps_mobile"
+    },
+    {
+      "drawable": "ic_steam",
+      "label": "Steam",
+      "arcticons": "steam"
+    },
+    {
+      "drawable": "ic_steam_chat",
+      "label": "Steam Chat",
+      "arcticons": "steam_chat"
+    },
+    {
+      "drawable": "ic_my_verizon",
+      "label": "My Verizon",
+      "arcticons": "my_verizon"
+    },
+    {
+      "drawable": "ic_walmart",
+      "label": "Walmart",
+      "arcticons": "walmart"
+    },
+    {
+      "drawable": "ic_terminal",
+      "label": "Terminal",
+      "arcticons": "terminal"
+    },
+    {
+      "drawable": "ic_smartwatch",
+      "label": "Smartwatch",
+      "arcticons": "smartwatch"
+    },
+    {
+      "drawable": "ic_max",
+      "label": "Max",
+      "arcticons": "max"
+    },
+    {
+      "drawable": "ic_wendys",
+      "label": "Wendys",
+      "arcticons": "wendys"
+    },
+    {
+      "drawable": "ic_whicons",
+      "label": "Whicons",
+      "arcticons": "whicons"
+    },
+    {
+      "drawable": "ic_workday",
+      "label": "Workday",
+      "arcticons": "workday"
+    },
+    {
+      "drawable": "ic_yelp",
+      "label": "Yelp",
+      "arcticons": "yelp"
+    },
+    {
+      "drawable": "ic_pizzahut",
+      "label": "Pizzahut",
+      "arcticons": "pizzahut"
+    },
+    {
+      "drawable": "ic_zelle",
+      "label": "Zelle",
+      "arcticons": "zelle"
+    },
+    {
+      "drawable": "ic_gun",
+      "label": "Gun",
+      "arcticons": "gun"
+    },
+    {
+      "drawable": "ic_crumbl",
+      "label": "Crumbl",
+      "arcticons": "crumbl"
+    },
+    {
+      "drawable": "ic_disky",
+      "label": "Disky",
+      "arcticons": "disky"
+    },
+    {
+      "drawable": "ic_kvaesitso",
+      "label": "Kvaesitso",
+      "arcticons": "kvaesitso"
+    },
+    {
+      "drawable": "ic_amarok",
+      "label": "Amarok",
+      "arcticons": "amarok"
+    },
+    {
+      "drawable": "ic_dji",
+      "label": "DJI",
+      "arcticons": "dji"
+    },
+    {
+      "drawable": "ic_feast_kwgt",
+      "label": "Feast Kwgt",
+      "arcticons": "feast_kwgt"
+    },
+    {
+      "drawable": "ic_smartlauncher",
+      "label": "Smart Launcher",
+      "arcticons": "smartlauncher"
+    },
+    {
+      "drawable": "ic_icon_pack_studio",
+      "label": "Icon Pack Studio",
+      "arcticons": "icon_pack_studio"
+    },
+    {
+      "drawable": "ic_heliboard",
+      "label": "Heliboard",
+      "arcticons": "heliboard"
+    },
+    {
+      "drawable": "ic_flow_youtube",
+      "label": "Flow Youtube",
+      "arcticons": "flow_youtube"
+    },
+    {
+      "drawable": "ic_canta",
+      "label": "Canta",
+      "arcticons": "canta"
+    },
+    {
+      "drawable": "ic_home_assistant",
+      "label": "Home Assistant",
+      "arcticons": "home_assistant"
+    },
+    {
+      "drawable": "ic_slimsocial",
+      "label": "SlimSocial",
+      "arcticons": "slimsocial"
+    },
+    {
+      "drawable": "ic_nora",
+      "label": "Nora",
+      "arcticons": "nora"
+    },
+    {
+      "drawable": "ic_proton_calendar",
+      "label": "Proton Calendar",
+      "arcticons": "proton_calendar"
+    },
+    {
+      "drawable": "ic_proton_drive",
+      "label": "Proton Drive",
+      "arcticons": "proton_drive"
+    },
+    {
+      "drawable": "ic_proton_lumo",
+      "label": "Proton Lumo",
+      "arcticons": "proton_lumo"
+    },
+    {
+      "drawable": "ic_shizuku",
+      "label": "Shizuku",
+      "arcticons": "shizuku"
+    },
+    {
+      "drawable": "ic_calc_you",
+      "label": "Calculator",
+      "arcticons": "calc_you"
+    },
+    {
+      "drawable": "ic_quacker",
+      "label": "Quacker",
+      "arcticons": "quacker"
+    },
+    {
+      "drawable": "ic_continuum",
+      "label": "Continuum",
+      "arcticons": "continuum"
+    },
+    {
+      "drawable": "ic_fdroid",
+      "label": "F-Droid",
+      "arcticons": "fdroid"
+    },
+    {
+      "drawable": "ic_fossify_gallery",
+      "label": "Fossify Gallery",
+      "arcticons": "fossify_gallery"
+    },
+    {
+      "drawable": "ic_ironfox",
+      "label": "Ironfox",
+      "arcticons": "ironfox"
+    },
+    {
+      "drawable": "ic_kwgt",
+      "label": "KWGT",
+      "arcticons": "kwgt"
+    },
+    {
+      "drawable": "ic_kwgt_pro",
+      "label": "KWGT Pro",
+      "arcticons": "kwgt_pro"
+    },
+    {
+      "drawable": "ic_localsend",
+      "label": "LocalSend",
+      "arcticons": "localsend"
+    },
+    {
+      "drawable": "ic_firefox",
+      "label": "Firefox",
+      "arcticons": "firefox"
+    },
+    {
+      "drawable": "ic_speedtest",
+      "label": "Speedtest",
+      "arcticons": "speedtest"
+    },
+    {
+      "drawable": "ic_proton_authenticator",
+      "label": "Proton Authenticator",
+      "arcticons": "proton_authenticator"
+    },
+    {
+      "drawable": "ic_proton_meet",
+      "label": "Proton Meet",
+      "arcticons": "proton_meet"
+    },
+    {
+      "drawable": "ic_proton_pass",
+      "label": "Proton Pass",
+      "arcticons": "proton_pass"
+    },
+    {
+      "drawable": "ic_spamblocker",
+      "label": "Spamblocker",
+      "arcticons": "spamblocker"
+    },
+    {
+      "drawable": "ic_timeless_kwgt",
+      "label": "Timeless Kwgt",
+      "arcticons": "timeless_kwgt"
+    },
+    {
+      "drawable": "ic_github_store",
+      "label": "Github Store",
+      "arcticons": "github_store"
+    },
+    {
+      "drawable": "ic_launcher",
+      "label": "Launcher",
+      "custom": "launcher.svg",
+      "components": [
+        "app.lawnchairlite/app.lawnchairlite.MainActivity",
+        "app.vela/app.vela.Launcher",
+        "com.droiddeck.launcher/com.droiddeck.launcher.MainActivity"
+      ]
+    }
   ]
 }
